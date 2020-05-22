@@ -7,7 +7,7 @@
 ```bash
   git clone https://github.com/fecee/pmabuster.git
   cd pmabuster
-  python pmabuster.py -u 127.0.0.1 -uf username.txt -pf password.txt
+  python pmabuster.py -u 127.0.0.1/phpmyadmin/index.php -uf username.txt -pf password.txt
 ```
 
 文件目录下,`username.txt`是用户名字典，`password.txt`是密码字典，可以自行修改。
